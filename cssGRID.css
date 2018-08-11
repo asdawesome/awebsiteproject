@@ -1,0 +1,12 @@
+.sample {/* Пустота */}
+	.sample__item {
+		margin :30px;
+		background : #0175A7;
+		padding :20px;
+		grid-template-colums:150px 1fr 150px;
+		grid-template-rows: 150px 1fr 150px;
+	}
+	
+	.sample__item:first-child { background:#090 }
+	.sample__item:last-child {background:#C00 }
+	.sample__item:before {content : counter(list) }
